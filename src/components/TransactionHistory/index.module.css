@@ -1,0 +1,44 @@
+.transactionHistory {
+  border-radius: 5px;
+  width: 800px;
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: scale 300ms;
+}
+
+.transactionHistory:hover {
+  scale: 1.05;
+}
+
+.tableHead {
+  background: rgba(93, 180, 255);
+  font-size: 28px;
+  font-weight: 500;
+  border-radius: 5px;
+  height: 40px;
+  padding: 7px;
+}
+
+.tableData {
+  font-size: 28px;
+}
+
+.tableData:hover {
+  background: rgba(255, 216, 82);
+}
+
+.tableDataCell {
+  width: 350px;
+  height: 35px;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #e3e3e3;
+}
